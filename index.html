@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta lang="en-US">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-editr</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Zekko Text Editor V-2.10</h1>
+    <fieldset id="code_box">
+        <legend>TYPE YOUR CODE HERE</legend>
+        <div class="btnd">
+            <input type="text" placeholder="Specify a filename" id="filename">
+            <button id="download">Download file</button>
+     </div>
+    
+        <textarea id="code">
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Code by Zekko
+</title>
+</head>
+<body>
+
+</body>
+</html>
+        </textarea>
+    </fieldset>
+
+<!-- second fieldset or result -->
+<fieldset id="result_box">
+    <legend>YOUR CODE RESULT</legend>
+    <div id="result">
+
+    </div>
+    
+</fieldset>
+
+<center>
+
+    <button id="run_btn" onclick="run()">Run Code ! </button>
+    <button id="icon" onclick="back()"> < Return to Code </button>
+</center>
+
+<script src="script.js"></script>
+
+</body>
+</html>
